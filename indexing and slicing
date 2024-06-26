@@ -1,0 +1,14 @@
+#indexing
+x="Hello world"
+print(x[0])
+print(x[3])
+print(x[6])
+
+
+#slicing
+x="Hello world"
+print(x[1:4])
+print(x[0:4:2])#start,end,step
+print(x[:5:2])#if we won't take any value at start then it defaulty take it as 0 
+print(x[2::1])#if we won't take any value at end then it will take till the end 
+print(x[2:6:])#if we won't take any value at step then it will take only one step
