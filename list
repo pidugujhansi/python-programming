@@ -1,0 +1,125 @@
+#storing numerical values in list
+marks=[10,20,30,40]
+print(marks)
+print(type(marks))
+print(len(marks),end="\n\n\n")
+
+
+#storing  non-numerical data in the list
+friends=["jhansi","siva","nani","ravi"]
+print(friends)
+print(type(friends))
+print(len(friends),end="\n\n\n")
+
+
+#empty list
+data=[]
+print(data)
+print(type(data))
+print(len(data),end="\n\n\n")
+
+
+#indexing on list
+print(marks[0])
+print(friends[3])
+print(marks[3])
+print(marks[-1])
+print(marks[-2])
+print(friends[1])
+print(friends[-1])
+print(friends[-2],end="\n\n\n")
+
+
+#slicing on list
+print(marks[1:3])
+print(marks[:3:1])
+print(marks[0::1])
+print(friends[0::])
+print(friends[::])
+print(friends[1:3:1])
+print(friends[::2])
+print(friends[1::1],end="\n\n\n")
+
+
+#nested list or multidimensional list
+biodata=[marks,friends]
+print(biodata)
+print(type(data),end="\n\n\n")
+
+
+bio=[21,999999999,"Address",friends]
+print(bio)
+print(type(bio),end="\n\n\n")
+
+
+#certain data accessing from the nestes list
+#i want access siva from the nested listed "biodata"
+print(biodata[1][1],end="\n\n\n")
+
+
+#changing or updating an item from the list
+marks[1]=55
+print(marks,end="\n\n\n")
+
+
+friends[0]="venu"
+print(friends,end="\n\n\n")
+
+
+#concatination
+print(marks+friends,end="\n\n\n")
+
+
+#adding the new item to the list 
+marks.append(90)# append is used to add single item in the list
+print(marks,end="\n\n\n")
+
+marks.extend([65,75,85])  #extend is used add to more than one item to the list
+print(marks,end="\n\n\n")
+
+friends.append("raju")
+print(friends,end="\n\n\n")
+
+friends.extend(["rupa","vasu"])
+print(friends,end="\n\n\n")
+
+
+#adding an  item at specific position
+marks.insert(1,95)# for inserting a single value
+print(marks,end="\n\n\n")
+
+
+marks[1:1]=[26,57,86] # for inserting multiple values
+print(marks,end="\n\n\n")
+
+marks[2:1]=[32,12,14]
+print(marks,end="\n\n\n")
+
+friends.insert(4,"lucky")
+print(friends,end="\n\n\n")
+
+
+friends[3:1]=(["teja","vicky"])
+print(friends,end="\n\n\n")
+
+
+#deleting an item from the list
+friends.remove("teja")
+print(friends,end="\n\n\n")
+
+friends.pop(0)
+print(friends,end="\n\n\n")
+
+marks.remove(90)
+print(marks,end="\n\n\n")
+
+marks.pop(4)
+print(marks,end="\n\n\n")
+
+friends.pop(5)
+print(friends,end="\n\n\n")
+
+
+friends.clear()#used to clear the list 
+
+print(friends)
