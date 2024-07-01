@@ -1,0 +1,61 @@
+#creating a tuple
+marks=(34,56,78,67)
+print(marks)
+print(type(marks),end="\n\n\n")
+
+friends=("nani","siva","lucky","venu")
+print(friends)
+print(type(friends),end="\n\n\n")
+print(len(friends))
+
+
+#empty tuple
+friend=()
+print(friends)
+print(type(friends),end="\n\n\n")
+
+
+friend=("vasu")  #if you use a single item in the tuple then  will represest a string class
+print(friend)
+print(type(friend),end="\n\n\n")
+
+friend=("vasu",) # "," is used to represent it as a tuple
+print(friend)
+print(type(friend),end="\n\n\n")
+
+
+mark=(78,)
+print(marks)
+print(type(marks),end="\n\n\n")
+
+#indexing
+print(marks[0])
+print(marks[3])
+print(marks[1])
+print(friends[0])
+print(friends[1])
+print(friends[-1])
+print(marks[-2])
+print(friends[2],end="\n\n\n")
+
+#slicing
+print(marks[0::1])
+print(marks[:2:1])
+print(marks[::])
+print(friends[0:2])
+print(friends[:1:],end="\n\n\n")
+
+
+#nested or multidimensional tuple
+bio=(marks,friends)
+print(bio)
+print(type(bio),end="\n\n\n")
+
+#concatination
+data=(marks+friends)
+print(data)
+print(type(data),end="\n\n\n")
+
+#accessing the elements from the nested tuple
+print(bio[1][2])
+print(bio[0][3],end="\n\n\n")
