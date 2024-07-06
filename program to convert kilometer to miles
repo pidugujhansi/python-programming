@@ -1,0 +1,3 @@
+kilometer=eval(input("enter the kiometers:"))
+miles=kilometer*1.3
+print(f"The {kilometer} km is {round(miles,3)} miles")
