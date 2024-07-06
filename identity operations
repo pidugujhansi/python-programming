@@ -1,0 +1,6 @@
+name="Hello world"
+data="Hello world"
+print(name is data)
+print(name is not data)
+print(data is name)
+print(data is not name)
