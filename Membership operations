@@ -1,0 +1,6 @@
+name="Hello world"
+data="you are nice"
+print("Hello" in name)
+print("Hello" not in name)
+print("bad" in data)
+print("bad" not in data)
