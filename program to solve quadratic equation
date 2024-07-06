@@ -1,0 +1,6 @@
+a=5
+b=3
+c=6
+res1=-b-((b**2-4*a*c)**0.5)/(2*a)
+res2=-b+((b**2-4*a*c)**0.5)/(2*a)
+print(f"Root1 is {res1} and root2 is {res2}")
