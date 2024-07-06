@@ -1,0 +1,10 @@
+a="true"
+b="false"
+print(a and b)
+print(a or b)
+print(a and a)
+print(b and b)
+print(a or a)
+print(b or b)
+print(b and a)
+print(b or a)
