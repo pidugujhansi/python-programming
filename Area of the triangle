@@ -1,0 +1,4 @@
+height=eval(input("enter the height:"))
+breadth=eval(input("enter the breadth:"))
+Area=0.5*height*breadth
+print("The area of the triangle is",Area)
