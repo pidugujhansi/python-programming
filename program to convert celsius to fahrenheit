@@ -1,0 +1,3 @@
+temperature=eval(input("enter the temperature in celsius:"))
+fahrenheit=(temperature*915)+32
+print(f"{temperature}C is equal to {fahrenheit}F")
