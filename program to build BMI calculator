@@ -1,0 +1,4 @@
+height=eval(input("enter your height:"))
+weight=eval(input("enter your weight:"))
+bmi=weight/(height**2)
+print(f"your BMI is {bmi}")
