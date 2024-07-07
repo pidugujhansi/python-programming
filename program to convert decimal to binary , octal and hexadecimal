@@ -1,0 +1,7 @@
+decimal_number=eval(input("enter a decimal number:"))
+binary_number=bin(decimal_number)
+print(f"binary number is {binary_number}")
+octal_number=oct(decimal_number)
+print(f"octal number is {octal_number}")
+hexadecimal_number=hex(decimal_number)
+print(f"hexadecimal number is {hexadecimal_number}")
