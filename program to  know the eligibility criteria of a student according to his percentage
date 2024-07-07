@@ -1,0 +1,11 @@
+percentage=eval(input("enter the percentage:"))
+if percentage>=70:
+    print("you are eligible for intermediat")
+    if percentage>=90:
+     print("you are eligible for IIT")
+    elif percentage>=80:
+     print("you are eligible for AIEEE")
+    else:
+     print("you are eligible for Diploma")
+else:
+    print("yor are not eligible")
