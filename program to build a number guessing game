@@ -1,0 +1,9 @@
+print("welcome to number guessing game")
+number=7
+guess=int(input("guess a number:"))
+if guess>number:
+ print("your guess to high")
+elif guess<number:
+ print("your guess to low")
+else:
+    print("your guess is correct")
