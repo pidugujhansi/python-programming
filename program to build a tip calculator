@@ -1,0 +1,6 @@
+bill_amount=int(input("enter the total amount:"))
+tip_percentage=eval(input("enter the percentage:"))
+members=int(input("enter the total number of persons:"))
+tip_amount=tip_percentage/100
+amount=(bill_amount+(bill_amount*tip_amount))/members
+print(f"each person has to pay {amount}/-Rs")
