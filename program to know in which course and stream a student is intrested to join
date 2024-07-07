@@ -1,0 +1,22 @@
+course=input("enter the course name:")
+stream=input("enter the stream name:")
+if course=="intermediate":
+ print("you are intrested in intermediate")
+ if stream=="mpc":
+    print("you are intrested in MPC")
+ elif stream=="bipc":
+    print("you are intrested in BIPC")
+ else:
+    print("yor are intrested in HEC")
+elif course=="diploma":
+    print("you are intrested in DIPLOMA")
+    if stream=="cse":
+         print("you are intrested in CSE")
+    elif stream=="ece":
+         print("you are intrested in ECE")
+    elif stream=="eee":
+         print("you are intrested in EEE")
+    else:
+         print("you are intrested in CIVIL")
+else:
+    print("you are intrested in ITI")
