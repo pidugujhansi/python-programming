@@ -1,0 +1,38 @@
+print("Welcome to treasure hunt game!!!!")
+print("Do you want to start or close the game \n enter 1--->game started \n enter 2--->game close")
+choice=int(input("enter your choice:"))
+if choice==1:
+  print("Game started")
+  print("you are at the middle of the mountain \n do you want to go up or down??? \n enter 1---> up or 2--->down")
+  choice1=int(input("enter your choice:"))
+  if choice1==2:
+   print("you came dowm!!!\n now you are at the river")
+   print("enter 1--->swim or 2--->boat")
+   choice2=eval(input("enter your choice:"))
+   if choice2==2:
+    print("congrats!!! now are you one more step near to find the treasure,you reached the haunted house")
+    print("The haunted house has 3 door \n enter 1--->red or 2--->blue or 3--->yellow")
+    choice3=eval(input("enter your choice:"))
+    if choice3==1:
+     print("Room is full of fire")
+     print("you are DIED!!! \n GAME OVER!!!")
+    elif choice3==2:
+     print("Room is full of snakes")
+     print("you are DIED!!! \n GAME OVER!!!")
+    elif choice3==3:
+     print("HURRAY!!! you found the treasure")
+     print("CONGRATES , YOU WON THE GAME!!!")
+    else:
+     print("please enter the correct choice")
+   elif choice2==1:
+    print("Oh no...!!!!\n you were eaten by the crocodile")
+    print("you are DIED!!! \n GAME OVER!!!")
+   else:
+       print("please enter the correct choice")
+  elif choice1==1:
+      print("you went up!!!\n you were fallen from the mountain")
+      print("you are DIED!!!!\n GAME OVER!!!")
+  else:
+      print("please enter the correct choice")
+else:
+    print("Game closed")
