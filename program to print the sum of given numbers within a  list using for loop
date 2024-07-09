@@ -1,0 +1,5 @@
+numbers=[1,2,3,6,7,9,10,67,84,90]
+result=0
+for num in numbers:
+    result=result+num
+    print(result)
