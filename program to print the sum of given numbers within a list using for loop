@@ -1,0 +1,5 @@
+number=[1,4,67,8,45,34]
+result=0
+for i in number:
+ result+=i
+ print(result)
