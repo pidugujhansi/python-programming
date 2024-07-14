@@ -1,0 +1,8 @@
+name=input("enter your name:")
+vowelsList={'a','e','i','o','u'}
+for character in name:
+    if character in vowelsList:
+        print("your name has vowels")
+        break
+else:
+    print("your name does not have vowels")
