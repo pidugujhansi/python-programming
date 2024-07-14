@@ -1,0 +1,7 @@
+name=input("enter the name:")
+print("loop started")
+while name!="python":
+    name=input("enter your name:")
+    print(name)
+else:
+    print("loop terminated")
