@@ -1,0 +1,7 @@
+list=[1,2,3,5,4,6,4,4,7,8,9,5,5,5]
+num=int(input("enter the number:"))
+count=0
+for i in list:
+    if i==num:
+        count+=1
+print(count)
