@@ -1,0 +1,5 @@
+list=[1,4,7,9,5,7,9,0]
+result=0
+for i in list:
+    result+=1
+print(result)
