@@ -1,0 +1,4 @@
+list=['python',10,50,60.7,True,4+7j,30]
+for i in list:
+    if type(i)==int:
+     print(i)
