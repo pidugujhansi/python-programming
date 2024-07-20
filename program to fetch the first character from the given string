@@ -1,0 +1,3 @@
+string="How are you"
+for i in string.split():
+ print(i[0])
