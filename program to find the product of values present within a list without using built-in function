@@ -1,6 +1,6 @@
 lst=[2,5,7,6,8,9,3]
 num=12
-for i in lst:
-    for j in range(i):
-        if i+j==num:
-          print(i,j)
+for i in range(len(lst)):
+    for j in range(i,len(lst)):
+        if lst[i]*lst[j]==num:
+          print(lst[i],lst[j])
