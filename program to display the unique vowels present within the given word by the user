@@ -1,0 +1,7 @@
+word=input("enter a word:")
+vowels=('a','e','i','o','u')
+unique_vowels=[]
+for i in word:
+    if i in vowels and i not in unique_vowels:
+        unique_vowels.append(i)
+print(unique_vowels)
