@@ -1,0 +1,4 @@
+list=['apple','pine apple','avacado','orange']
+len_of_list=[len(i) for i in list]
+for i in range(len(list)):
+    print(list[i],len_of_list[i])
