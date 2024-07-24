@@ -1,0 +1,4 @@
+tupl1=(1,2,3,4,5)
+tupl2=(5,6,7,7,8)
+print(tupl1+tupl2)
+print(tupl1*2)
