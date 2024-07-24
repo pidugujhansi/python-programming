@@ -1,0 +1,3 @@
+data=eval(input("enter the data by giving commas:"))
+print(sum(data))
+print(sum(data)/len(data))
