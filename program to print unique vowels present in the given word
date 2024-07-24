@@ -1,0 +1,4 @@
+word=input("enter a word:")
+set_word=set(word)
+vowels_list={'a','e','i','o','u'}
+print(set_word.intersection(vowels_list))
