@@ -1,0 +1,6 @@
+data=['lucky','vicky','manu','cherry']
+data1,data2,data3,data4=data
+print(data1)
+print(data2)
+print(data3)
+print(data4)
