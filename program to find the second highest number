@@ -1,0 +1,7 @@
+numbers=[1,2,4,6,7,4,5,6,9,9]
+numbers.sort()
+num=numbers[-1]
+for i in numbers[::-1]:
+    if i<num:
+        print(i)
+        break
