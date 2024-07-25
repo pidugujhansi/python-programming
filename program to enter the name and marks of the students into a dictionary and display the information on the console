@@ -1,0 +1,7 @@
+no_of_students=eval(input("enter the number of students:"))
+data={}
+for i in range(no_of_students):
+ name=input("enter the name of the student:")
+ marks=input("enter the marks of the student:")
+ data[name]=marks
+print(data)
