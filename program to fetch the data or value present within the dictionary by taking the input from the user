@@ -1,0 +1,6 @@
+data={1:'lucky',2:'vicky',3:'cherry',4:'abhi',10:'abhi',4:'manu'}
+user_input=eval(input("enter the key:"))
+if user_input in data:
+  print(data[user_input])
+else:
+     print("please enter the correct input")
