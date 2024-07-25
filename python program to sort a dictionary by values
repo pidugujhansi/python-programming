@@ -1,0 +1,9 @@
+dict1={1:1000,2:365,3:254,4:896,5:234}
+print(dict1)
+sorted_values=sorted(dict1.values())
+updated_dict={}
+for i in sorted_values:
+    for j in dict1:
+     if dict1[j]==i:
+         updated_dict[j]=i
+print(updated_dict)     
