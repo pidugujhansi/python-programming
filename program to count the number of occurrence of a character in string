@@ -1,0 +1,3 @@
+strg="your beautiful and looking as beautiful as wow"
+print(strg.count("your"))
+print(strg.count("as"))
