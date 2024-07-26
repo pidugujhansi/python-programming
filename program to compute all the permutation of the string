@@ -1,0 +1,4 @@
+word="abc"
+from itertools import permutations
+for i in list(permutations(word)):
+ print("".join(i))
