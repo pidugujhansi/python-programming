@@ -1,0 +1,8 @@
+punctuation="!#$%&'()*+, -./:;<=>?@[\]^_`{|}~"
+sentence="priceton-new york trains.(endash) she gave him her answer-No!(emdash)"
+res=""
+for i in sentence:
+    if i not in punctuation:
+        res+=i
+print(res)
+        
