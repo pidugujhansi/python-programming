@@ -1,0 +1,6 @@
+word=["radar","python","level","world"]
+for i in word:
+    if i==i[::-1]:
+     print(f"{i} is palindrome")
+    else:
+        print(f"{i} is not palindrome")
