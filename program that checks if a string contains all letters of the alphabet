@@ -1,0 +1,7 @@
+word="The quick brown fox jumps  over the lazy dog".replace(" ","")
+alphabets={chr(i) for i in range(65,91)}
+s_word=set(word.upper())
+if alphabets==s_word:
+    print('true')
+else:
+    print("false")
