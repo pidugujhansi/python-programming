@@ -1,0 +1,4 @@
+word="python  ".strip()
+word1="    python".strip()
+print(word)
+print(word1)
