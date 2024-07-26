@@ -1,0 +1,8 @@
+word1="silent"
+word2="listen"
+word3=sorted(word1)
+word4=sorted(word2)
+if word3==word4:
+    print("It is analog")
+else:
+    print("It is not analog")
