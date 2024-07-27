@@ -1,0 +1,10 @@
+from collections import Counter
+marks=[15,15,6,63,87,74,36,97,75]
+def student_stats(student_marks):
+    mean=sum(student_marks)/len(student_marks)
+    median=sorted(student_marks)[len(student_marks)//2]
+    mode=Counter(student_marks).most_common(1)[0][0]
+    print(f"average is:{mean}")
+    print(f"median is :{median}")
+    print(f"mode is :{mode}")
+student_stats(marks)
