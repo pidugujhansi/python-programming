@@ -1,0 +1,11 @@
+marks=[15,15,6,63,87,74,36,97,75]
+def student_marks(marks):
+    highest_value=max(marks)
+    average_value=sum(marks)//len(marks)
+    lowest_value=min(marks)
+    return highest_value,average_value,lowest_value
+highest_value,average_value,lowest_value=student_marks(marks)
+print(highest_value)
+print(average_value)
+print(lowest_value)
+student_marks(marks)
