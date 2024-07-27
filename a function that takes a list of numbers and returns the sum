@@ -1,0 +1,4 @@
+def list_numbers(*numbers):
+    result=sum(numbers)
+    return result
+print(list_numbers(1,2,3,5,10,9))
