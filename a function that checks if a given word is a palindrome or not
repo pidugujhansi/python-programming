@@ -1,0 +1,9 @@
+def palindrome(n):
+    if n==n[::-1]:
+        print("it is a palindrome")
+    else:
+        print("it is not a palindrome")
+palindrome("noun")
+palindrome("MOM")
+palindrome("listen")
+palindrome("radar")
