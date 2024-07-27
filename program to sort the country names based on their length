@@ -1,0 +1,3 @@
+countries=['UK','USA','India','Sri Lanka','China','UAE']
+res=sorted(countries,key=lambda names:len(names))
+print(res)
