@@ -1,0 +1,3 @@
+res=(lambda a,b,c: a if a>b and a>c else b if b>c else c)
+print("the greatest of the given numbers:",res(35,26,40))
+print("the greatest of the given numbers:",res(10,20,6))
