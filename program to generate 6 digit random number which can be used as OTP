@@ -1,0 +1,6 @@
+from random import *
+
+res=""
+for i in range(6):
+    res+=str(randint(0,10))
+print(res)
