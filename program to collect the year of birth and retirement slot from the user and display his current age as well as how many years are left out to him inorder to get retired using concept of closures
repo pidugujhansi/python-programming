@@ -1,0 +1,10 @@
+import datetime
+def outer(YOB):
+    def inner(rs):
+        age=int(datetime.datetime.now().year)-YOB
+        retire=rs-age
+        print(f"Your age is {age}")
+        print(f"years left to retire {retire}")
+    return inner
+result=outer(1995)
+result(60)
